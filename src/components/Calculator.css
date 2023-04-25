@@ -1,0 +1,69 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.calculator {
+  width: 21rem;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.inputContainer {
+  width: 19rem;
+  height: 3rem;
+  text-align: right;
+  background-color: rgb(216, 216, 216);
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  margin: 0 0 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  border: 1px solid black;
+}
+
+.calculatorButton {
+  padding: 1rem 2rem;
+  width: 5rem;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border: 1px solid black;
+}
+
+.calculatorButton:active {
+  background-color: #cfcfcf;
+}
+
+.mathButton {
+  background-color: rgb(199, 199, 199);
+}
+
+.mathButton:active {
+  background-color: #afafaf;
+}
+
+.mathButtonOrange {
+  background-color: rgb(255, 132, 0);
+}
+
+.mathButtonOrange:active {
+  background-color: rgb(179, 93, 0);
+}
+
+.zero {
+  width: 10.2rem;
+}
