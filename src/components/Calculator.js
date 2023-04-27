@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => (
+  <div className="container">
+    <ChildComponent />
+  </div>
+);
+
+function ChildComponent() {
   const [calcData, setCalcData] = useState({
     total: null,
     next: null,
