@@ -56,11 +56,11 @@
   background-color: #cfcfcfe2;
 }
 
-.mathButtonOrange {
+.operationButton {
   background-color: rgba(255, 132, 0, 0.92);
 }
 
-.mathButtonOrange:active {
+.operationButton:active {
   background-color: rgb(255, 156, 50);
 }
 
