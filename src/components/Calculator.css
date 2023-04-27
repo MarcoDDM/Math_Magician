@@ -25,7 +25,7 @@
   width: 19rem;
   height: 3rem;
   text-align: right;
-  background-color: rgb(216, 216, 216);
+  background-color: rgba(196, 196, 196, 0.89);
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
   padding: 0 1rem;
@@ -45,7 +45,7 @@
 }
 
 .calculatorButton:active {
-  background-color: #cfcfcf;
+  background-color: #cfcfcfe2;
 }
 
 .mathButton {
@@ -53,15 +53,15 @@
 }
 
 .mathButton:active {
-  background-color: #afafaf;
+  background-color: #cfcfcfe2;
 }
 
-.mathButtonOrange {
-  background-color: rgb(255, 132, 0);
+.operationButton {
+  background-color: rgba(255, 132, 0, 0.92);
 }
 
-.mathButtonOrange:active {
-  background-color: rgb(179, 93, 0);
+.operationButton:active {
+  background-color: rgb(255, 156, 50);
 }
 
 .zero {
