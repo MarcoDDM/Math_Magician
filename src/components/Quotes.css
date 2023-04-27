@@ -1,0 +1,20 @@
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.quotes p {
+  color: black;
+  font-size: 2rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: rgb(214, 125, 0);
+  font-size: 2rem;
+}
