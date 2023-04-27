@@ -21,7 +21,7 @@ function ChildComponent() {
   };
 
   return (
-    <div className="calculator container">
+    <div className="calculator">
       <input
         className="inputContainer"
         type="text"
