@@ -1,0 +1,11 @@
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.quotes p {
+  color: black;
+  font-size: 2rem;
+}
