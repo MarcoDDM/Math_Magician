@@ -15,7 +15,7 @@ function Calculator() {
   };
 
   return (
-    <div className="calculator">
+    <div className="calculator container">
       <input
         className="inputContainer"
         type="text"
