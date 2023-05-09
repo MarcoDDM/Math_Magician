@@ -1,30 +1,34 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-const Home = () => <h2>Home</h2>;
-const Quote = () => <h2>Quote</h2>;
-const Calculator = () => <h2>Calculator</h2>;
-
-const Navbar = () => (
-  <div>
-    <nav>
-      <ul>
-        <li>
-          <NavLink exact to="/" activeClassName="active">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/quote" activeClassName="active">Quote</NavLink>
-        </li>
-        <li>
-          <NavLink to="/calculator" activeClassName="active">Calculator</NavLink>
-        </li>
-      </ul>
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <div className="navbar-container">
+        <Link to="/" className="navbar-logo">
+          Your Logo Here
+        </Link>
+        <ul className="nav-menu">
+          <li className="nav-item">
+            <Link to="/" className="nav-links">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/calculator" className="nav-links">
+              Calculator
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/quotes" className="nav-links">
+              Quotes
+            </Link>
+          </li>
+        </ul>
+      </div>
     </nav>
-
-    <Route exact path="/" component={Home} />
-    <Route path="/quote" component={Quote} />
-    <Route path="/calculator" component={Calculator} />
-  </div>
-);
+  );
+}
 
 export default Navbar;
