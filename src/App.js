@@ -13,8 +13,8 @@ function Layout() {
       <nav>
         <ul className="navbar">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/quotes">Quotes</Link></li>
           <li><Link to="/calculator">Calculator</Link></li>
+          <li><Link to="/quotes">Quotes</Link></li>
         </ul>
       </nav>
       <Outlet />
