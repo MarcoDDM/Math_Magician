@@ -1,7 +1,8 @@
 import React from 'react';
+import './Home.css';
 
 export const Home = () => (
-  <div>
+  <div className="home">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Proin faucibus, elit eget accumsan congue, ante elit iaculis dolor,
     eget luctus lorem odio eu leo. Ut eget lacinia mauris.
