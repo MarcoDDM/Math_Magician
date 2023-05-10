@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for the Navbar component Should render a snapshot of the Navbar component 1`] = `
+<a
+  class="nav-links"
+  href="/"
+>
+  Home
+</a>
+`;
