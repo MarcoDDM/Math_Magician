@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 
-export const Home = () => (
+const Home = () => (
   <div className="home" data-testid="home">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Proin faucibus, elit eget accumsan congue, ante elit iaculis dolor,

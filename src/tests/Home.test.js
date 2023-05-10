@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import Home from '../components/Home';
 import '@testing-library/jest-dom/extend-expect';
+import Home from '../components/Home';
 
 describe('Test suite for the Home component', () => {
   let home;
