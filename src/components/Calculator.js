@@ -17,7 +17,7 @@ const Calculator = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" data-testid="container">
       <ChildComponent
         calcData={calcData}
         handleButtonClick={handleButtonClick}

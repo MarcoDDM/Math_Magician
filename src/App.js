@@ -3,7 +3,7 @@ import {
 } from 'react-router-dom';
 import './components/Quotes.css';
 import './App.css';
-import { Home } from './components/Home';
+import Home from './components/Home';
 import Quotes from './components/Quotes';
 import Calculator from './components/Calculator';
 

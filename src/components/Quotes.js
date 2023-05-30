@@ -27,12 +27,12 @@ function Quotes() {
   }, []);
 
   if (isLoading) {
-    return <div className="loading">Loading...</div>;
+    return <div className="loading" data-testid="quote">Loading...</div>;
   }
 
   if (error) {
     return (
-      <div>
+      <div data-testid="quote">
         Error:
         {error.message}
       </div>
@@ -43,7 +43,7 @@ function Quotes() {
   return (
     <ul>
       {quotes.map((quote) => (
-        <div key={quote.id} className="quotes">
+        <div key={quote.id} className="quotes" data-testid="quote">
           <p>
             {quote.quote}
             <br />
